@@ -1,0 +1,104 @@
+.top-container {
+  position: relative;
+  background-color: #4B8EFF;
+  padding-top: 200px;
+}
+
+* {
+  font-family: "Josefin Sans";
+}
+
+span {
+  font-family: Kode Mono;
+}
+
+.job {
+  text-decoration: line-through;
+}
+
+.head {
+  display: block;
+  text-align: center;
+}
+
+.middle-container {
+ background-color: #1D77CA;
+ padding-top: 100px;
+ height: 100%;
+ text-align: center;
+}
+
+.profile {
+  text-align: center;
+}
+
+h2,h3 {
+  padding-top: 30px;
+}
+
+p {
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  padding-top: 30px;
+  width: 50%;
+  margin: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  justify-content: center;
+  gap: 100px;
+  text-align: center;
+  justify-content: space-around;
+}
+
+
+.hardware, .network, .programming {
+  padding: 0;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 200px;
+  grid-template-rows: auto auto auto;
+}
+
+p.hardware {
+  width: 100%;
+}
+
+.skills {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.network {
+  padding: 0;
+  margin: 10px;
+}
+
+.programming {
+  padding: 0;
+  margin: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+.bottom-container {
+  background-color: #CCF0FC;
+}
+
+.socials {
+  text-align: center;
+  padding-top: 5pt;
+}
+
+.copyright {
+  margin: 0;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
